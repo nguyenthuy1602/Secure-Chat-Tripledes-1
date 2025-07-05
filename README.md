@@ -58,14 +58,7 @@
 
 ## 🗂️ Cấu trúc thư mục
 
-📦 Secure-Chat-Tripledes
-├── client/
-│ ├── index.html # Trang nhập tên người dùng
-│ ├── chat.html # Giao diện chat
-│ └── script.js # Xử lý mã hóa + giao tiếp WebSocket
-├── server/
-│ └── server.py # Server trung gian chuyển tiếp tin nhắn
-└── README.md
+<pre lang="markdown"><code>## 🗂️ Cấu trúc thư mục ``` 📦 Secure-Chat-Tripledes ├── client/ # Frontend (giao diện người dùng) │ ├── index.html # Trang nhập tên người dùng │ ├── chat.html # Giao diện chat chính │ └── script.js # Mã hóa + giao tiếp WebSocket │ ├── server/ # Backend (trung gian chuyển tiếp) │ └── server.py # Server WebSocket bằng Python │ └── README.md # Tài liệu mô tả dự án ``` </code></pre>
 
 ## ▶️ Cách chạy ứng dụng
 
